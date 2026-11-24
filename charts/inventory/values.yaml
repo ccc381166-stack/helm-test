@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: ghcr.io/stefanprodan/podinfo
+  tag: "6.17.0"
+
+containerPort: 9898
+
+service:
+  port: 8080
